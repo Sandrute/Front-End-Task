@@ -1,0 +1,217 @@
+@media only screen and (min-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background-image: url(image/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        margin: auto;
+        width: 100%;
+    }
+
+    .main-menu {
+        width: 80%;
+        margin: auto;
+        min-height: 80px;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 140px;
+        position: relative;
+        top: 17px;
+    }
+
+    ul, li {
+        display: inline-block;
+        position: relative;
+        right: -115px;
+        top: -14px;
+    }
+
+    .on-sale {
+        position: absolute;
+        top: -2px;
+        left: 9%;
+    }
+
+    .on-sale {
+        color: #ffe400;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .on-sale a {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    .menu-link, .menu-link:hover, .menu-link:hover a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        transition: all ease-in .2s;
+    }
+
+    .content {
+        position: relative;
+        top: 15em;
+        display: flex;
+        color: #fff;
+        -webkit-box-align: center;
+        align-items: center;
+        font-weight: 600 !important;
+    }
+
+    .first {
+        position: relative;
+        top: -200px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .left_button {
+        background-color: #fc5155;
+        border-radius: 6px;
+        text-align: center;
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+        padding: 20px 60px;
+        text-transform: uppercase;
+        margin-left: -13px;
+    }
+
+    .left_button:hover a {
+        background-color: red;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .left_button:hover {
+        background-color: red;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .second {
+        position: relative;
+        top: -340px;
+        right: -366px;
+    }
+
+    .save {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 10px 30px;
+        color: #fff;
+        background: #fb9d9e;
+    }
+
+    .save-arrow {
+        transform: rotate(45deg);
+        width: 20px;
+        height: 20px;
+        background: #fb9d9e;
+        position: relative;
+        right: -70px;
+        top: -10px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-top: -50px;
+        margin-left: 30px;
+    }
+
+    .fa-caret-right {
+        font-size: 30px;
+        position: relative;
+        top: -18px;
+        color: #FC5155;
+    }
+
+    .fa-caret-left {
+        font-size: 30px;
+        position: relative;
+        top: -61px;
+        left: 270px;
+        color: #FC5155;
+    }
+
+    .fa-check {
+        color: #7fbb73;
+    }
+
+    .third {
+        position: relative;
+        left: 130px;
+        top: -30px;
+    }
+
+    .dollar {
+        font-size: 10em;
+        font-weight: 700;
+        margin-bottom: -1.7em;
+        margin-left: -0.5em;
+    }
+
+    .price {
+        font-size: 40em;
+        font-weight: 700;
+        line-height: .8em;
+    }
+
+    .price-block {
+        position: relative;
+        top: -300px;
+        right: -200px;
+        font-weight: 700;
+    }
+
+    .cents {
+        font-size: 10em;
+        font-weight: 700;
+    }
+
+    .month {
+        font-size: 7em;
+        position: relative;
+        top: 50px;
+    }
+
+    table {
+        color: #fff;
+        font-size: 14px;
+    }
+}

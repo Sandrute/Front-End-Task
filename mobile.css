@@ -1,0 +1,220 @@
+@media (min-width: 0px) and (max-width: 767px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background-image: url(image/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        width: 100% !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-menu {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 200px;
+        position: relative;
+        top: 10px;
+        left: 35%;
+    }
+
+    ul, li {
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+
+    .on-sale {
+        position: absolute;
+        top: 2px;
+        left: 60%;
+    }
+
+    .on-sale {
+        color: #ffe400;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .on-sale a {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    .menu-link, .menu-link:hover, .menu-link:hover a {
+        position: relative;
+        display: block;
+        padding: 10px 14px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        transition: all ease-in .2s;
+    }
+
+    .content {
+        position: relative;
+        top: 10em;
+        color: #fff;
+        -webkit-box-align: center;
+        align-items: center;
+        font-weight: 600 !important;
+    }
+
+    .first {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .left_button {
+        background-color: #fc5155;
+        border-radius: 6px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 20px 60px;
+        text-transform: uppercase;
+        margin-left: -10px;
+    }
+
+    .left_button:hover a {
+        background-color: red;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .left_button:hover {
+        background-color: red;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+    }
+
+    .second {
+        position: relative;
+        top: 70px;
+        text-align: -webkit-center;
+    }
+
+    .save {
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 10px 30px;
+        color: #fff;
+        background: #fb9d9e;
+        width: 20%;
+    }
+
+    .save-arrow {
+        transform: rotate(45deg);
+        width: 18px;
+        height: 18px;
+        background: #fb9d9e;
+        position: relative;
+        top: -10px;
+    }
+
+    p {
+        font-size: 2.5em;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .fa-caret-right {
+        font-size: 2.5em;
+        position: relative;
+        left: -18%;
+        color: #FC5155;
+    }
+
+    .fa-caret-left {
+        font-size: 2.5em;
+        position: relative;
+        top: -43px;
+        left: 36%;
+        color: #FC5155;
+    }
+
+    .fa-check {
+        color: #7fbb73;
+    }
+
+    .third {
+        position: relative;
+        text-align: center;
+        left: -28px;
+        top: 120px;
+    }
+
+    .dollar {
+        font-size: 8em;
+        font-weight: 700;
+        margin-bottom: -1.9em;
+        margin-left: -2.5em;
+    }
+
+    .price {
+        font-size: 30em;
+        font-weight: 700;
+        line-height: .8em;
+    }
+
+    .price-block {
+        position: relative;
+        top: -200px;
+        right: -100px;
+        font-weight: 700;
+    }
+
+    .cents {
+        font-size: 8em;
+        font-weight: 700;
+    }
+
+    .month {
+        font-size: 6em;
+        position: relative;
+        top: 50px;
+    }
+
+    table {
+        color: #fff;
+        font-size: 14px;
+        position: relative;
+        top: 100px;
+    }
+
+}
